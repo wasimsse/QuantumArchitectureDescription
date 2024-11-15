@@ -1,0 +1,11 @@
+// Quantum Architecture
+digraph {
+	rankdir=LR
+	subgraph cluster_structuralview {
+		color=lightgrey label=StructuralView style=filled
+		"Qubit q0" [label="Qubit q0"]
+		"Qubit q1" [label="Qubit q1"]
+		"QuantumGate Hadamard on q0" [label="QuantumGate Hadamard on q0"]
+		"QuantumGate CNOT on q0 q1" [label="QuantumGate CNOT on q0 q1"]
+	}
+}
